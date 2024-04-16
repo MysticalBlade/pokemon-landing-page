@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding-top: 40px; /* Adjust this value as needed */
+    padding-bottom: 40px; /* Adjust this value as needed */
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+}
+
+.header {
+    /* Removed flex: 1; if you want the logo to not stretch, instead you can use margin or padding to position it */
+    padding-right: auto; /* Pushes everything else to the right */
+    padding-left: 5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.signtext{
+    padding-left: 5%
+}
+
+.signupbutton{
+    background-color: aqua;
+}
+
+#headerends {
+    display: flex; /* This will apply flex layout to the children spans */
+    justify-content: space-between; /* Spreads out the links */
+    flex-grow: 0; /* Disallows this element to grow and take available space */
+    max-width: 600px; /* You can set a max-width to prevent it from stretching too far */
+    padding-right: 20px; /* Adds some space between the logo and the links */
+    font-size: 20px;
+}
+
+#headerends span {
+    margin: 0 10px; /* Spacing between the links */
+}
+
+#signup{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}

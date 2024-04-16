@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f2937;
+    background-color: pink;
     padding-top: 40px; /* Adjust this value as needed */
     padding-bottom: 40px; /* Adjust this value as needed */
     width: 100%;
@@ -23,13 +23,35 @@
 }
 
 .signupbutton{
-    background-color: aqua;
-    color: black;
+    background-color: black;
     width: 50%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
     border-radius: 10px;
+}
+
+.centeredtext{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+.superquotes{
+    margin: auto;
+    font-size: 30px;
+    width: 600px
+
+}
+ 
+#pictures {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto
+
 }
 
 #headerends {
@@ -49,4 +71,13 @@
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-between;
+}
+
+#pokemons{
+    color: black;
+    background-color: #FFFFFF;
+}
+
+#quote{
+    background-color: pink;
 }
